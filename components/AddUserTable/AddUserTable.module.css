@@ -1,0 +1,30 @@
+.form {
+    @apply
+    flex flex-col
+    w-72 
+    border 
+    box-border
+    p-5 
+
+    /* tablet device */
+    md:w-96
+}
+
+.input {
+    @apply
+    border
+}
+
+.buttonWrapper {
+    @apply
+    flex flex-row justify-start gap-4
+}
+
+.button {
+    @apply
+    w-20
+    bg-green-700
+    text-white 
+    py-1 my-3
+    border 
+}
