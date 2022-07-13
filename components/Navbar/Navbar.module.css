@@ -1,0 +1,21 @@
+.nav {
+    @apply
+    w-full h-auto
+    bg-black
+    text-white
+    mb-5
+
+    /* tablet device */
+    md:h-14
+}
+
+.listWrapper {
+    @apply
+    w-full h-full
+    flex justify-center items-center flex-col gap-5
+    text-base
+    py-4
+
+    /* tablet device */
+    md:flex-row
+}
