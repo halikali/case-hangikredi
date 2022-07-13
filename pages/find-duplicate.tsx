@@ -54,7 +54,7 @@ const FindDuplicate: NextPage = () => {
       <p>Örnek olarak kullanılan dizi : [1, 2, 3, 4, 5, 5, 3, 3, 4, 6]</p>
       <input
         type="text"
-        className="border block"
+        className={style.input}
         onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
           onChangeHandler(e)
         }

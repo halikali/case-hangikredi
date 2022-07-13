@@ -16,3 +16,8 @@
     @apply
     my-2
 }
+
+.input {
+    @apply
+    border block
+}
