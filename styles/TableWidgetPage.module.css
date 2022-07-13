@@ -1,0 +1,7 @@
+.tableWidgetPage {
+    @apply
+    w-full flex justify-center items-center flex-col gap-4
+    
+    /* larde devices*/
+    lg:flex-row lg:items-start
+}
