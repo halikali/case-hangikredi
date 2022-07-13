@@ -1,0 +1,61 @@
+
+.input {
+    @apply
+    w-full
+    mb-2
+    border
+    indent-3
+}
+
+.widgetWrapper {
+    @apply
+    w-56
+    border
+}
+
+.widgetTitle {
+    @apply
+    border-l-4 
+    indent-6 
+    ml-3
+    font-bold
+}
+
+.listWrapper {
+    @apply
+    w-full h-64 
+    overflow-y-scroll
+}
+
+.listItem {
+    @apply
+    border-t
+    w-full h-8
+    flex justify-start items-center gap-4 
+    px-3
+    font-medium
+}
+
+.listItemActive {
+    @apply
+    text-gray-400
+}
+
+.listItemCounter {
+    @apply
+    w-5 h-5 
+    flex items-center justify-center 
+    bg-black
+    rounded-full
+    text-sm text-white
+}
+
+.next {
+    @apply
+    bg-gray-400
+}
+
+.active {
+    @apply
+    bg-green-700
+}
