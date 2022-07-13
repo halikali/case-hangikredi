@@ -1,0 +1,13 @@
+.container {
+    @apply
+    w-full
+    mx-auto
+
+    /* tablet device */
+    md:w-1/2
+}
+
+.title {
+    @apply
+    text-lg font-bold
+}
