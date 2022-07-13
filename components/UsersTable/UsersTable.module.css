@@ -1,0 +1,63 @@
+.tableWrapper {
+    @apply
+    w-72 
+    border 
+    box-border
+    
+    /* tablet device */
+    md:w-96
+}
+
+.inputWrapper {
+    @apply
+    flex justify-between
+    mb-3
+}
+
+.input {
+    @apply
+    border
+    indent-3
+}
+
+.dropdown {
+    @apply
+    w-20 h-auto 
+    absolute top-10 left-0 z-10
+    hidden 
+    text-white
+}
+
+.dropdownItem {
+    @apply
+    w-24 h-10 
+    leading-10 text-center
+    bg-slate-700 
+    transition 
+    cursor-pointer
+    hover:bg-slate-500 
+}
+
+.table {
+    @apply
+    w-full
+}
+
+.orderButton {
+    @apply
+    w-24 h-auto
+    bg-slate-500
+    px-4 py-2
+    text-white font-bold text-base
+}
+
+.tableRow {
+    @apply
+    h-[60px]
+    border-b
+}
+
+.tableData {
+    @apply
+    h-full
+}
