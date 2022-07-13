@@ -5,7 +5,7 @@ import style from "styles/FindDuplicate.page.module.css";
 
 const FindDuplicate: NextPage = () => {
   const [inputValue, setInputValue] = useState<number[] | null>(null);
-  
+
   const exampleArray = [1, 2, 3, 4, 5, 5, 3, 3, 4, 6];
   const exampleArray2 = [1, 2, 3, 4, 5];
 
@@ -45,11 +45,11 @@ const FindDuplicate: NextPage = () => {
     <div className={style.container}>
       <h1 className={style.title}>Find duplicate</h1>
       <p className={style.content}>
-        findDuplicatedElement adlı fonksiyona parametre olarak bir dizi
+        {`findDuplicatedElement adlı fonksiyona parametre olarak bir dizi
         verilmelidir. Fonksiyonun çıktısını aşağıda görebilirsiniz. İlgili
         fonksiyonu kod dosyasında görebilirsiniz. Site üzerinde denemek için ise
         aşağıda yer alan input'a aralarında virgül olacak şekilde bir sayı
-        dizisi girebilirsiniz.
+        dizisi girebilirsiniz.`}
       </p>
       <p>Örnek olarak kullanılan dizi : [1, 2, 3, 4, 5, 5, 3, 3, 4, 6]</p>
       <input

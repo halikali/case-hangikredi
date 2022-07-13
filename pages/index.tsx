@@ -6,8 +6,8 @@ const Home: NextPage = () => {
   return (
     <div className={style.container}>
       <h1 className={style.title}>
-        Dökümantasyonda belirtilen case'ler 3 ayrı sayfada gösterilmektedir.
-        Navbar'da bulunan linkler üzerinden ilgili sayfalara gidebilirsiniz.
+        {`Dökümantasyonda belirtilen case'ler 3 ayrı sayfada gösterilmektedir.
+        Navbar'da bulunan linkler üzerinden ilgili sayfalara gidebilirsiniz.`}
       </h1>
     </div>
   );

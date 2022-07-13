@@ -78,13 +78,13 @@ const UsersTable: React.FC = () => {
               className={style.dropdownItem}
               onClick={(e) => setFilterName("ascending")}
             >
-              A'dan Z'ye
+              {`A'dan Z'ye`}
             </li>
             <li
               className={style.dropdownItem}
               onClick={(e) => setFilterName("descending")}
             >
-              Z'den A'ya
+              {`Z'den A'ya`}
             </li>
           </ul>
         </div>
